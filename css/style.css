@@ -1,0 +1,315 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    max-width: 1440px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.wrapper{
+   
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    background: #2E276C;
+    
+    
+}
+.header_section_1{
+    display: flex;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family:'Prompt', sans-serif;
+
+}
+
+.header_section_2{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.heder_item:hover{
+    text-decoration: underline;
+}
+
+.heder_item{
+    margin: 10px 10px ;
+}
+.heder_item1{
+    margin: 15px;
+    font-weight: bold;
+}
+.heder_item1 > ul{
+    display: flex;
+    margin: 0;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+   }
+   
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+     font-size: 13px;
+}
+.my_company{
+    display: flex;
+}
+.menu-top{
+    color: rgb(0, 3, 209);
+    margin-top: 22px;
+    margin-left: 15px;
+}
+.menu-top_1{
+    color: #5F83BE;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.menu-top_1:hover {
+    color: rgb(0, 3, 209); /* Цвет ссылки при наведении */ 
+    
+}
+.room{
+    align-items: center;
+}
+.menu-top_room{
+    margin-left: 15px;
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+/* МЕНЮ САЙТА */
+.logo{
+    padding: 15px;
+
+    font-size: 25px;
+    align-items: center;
+}
+.catalog{
+    font-family: 'Raleway', sans-serif;
+     font-size: 15px;
+     font-style: normal;
+     padding: 10px;
+    
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+    font-size: 15px;
+}
+ul.menu > li > a {
+    display: block;
+    margin: 15px;
+    text-decoration: none;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 79px;
+    top: 37px;
+    left: 10px;
+    background-color: white;
+    margin-top: 1px;
+    font-size: 13px; 
+    border-radius: 3px;
+
+}
+
+ul.submenu > li {
+    display: block;
+    
+    
+}
+ul.submenu > li > a {
+    display: block;
+    color: #5F83BE;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    Font-style: normal;
+    text-align: center;
+    line-height: 18px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+ul.submenu > li > a:hover {
+    text-decoration: none;
+    color: rgb(0, 3, 209);
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+.catalog{
+    justify-content: center;
+    margin-left: 190px;
+}
+.why{
+    color: black;
+    font-family: 'Prompt', sans-serif;
+
+}
+.why_are_we{
+    font-size: 38px;
+    font-family: 'Raleway', sans-serif;
+    margin: 55px;
+    margin-left: 0;
+    color:  #141736;
+    ;
+
+    
+
+}
+.why_item{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Prompt', sans-serif;
+    font-style:  Medium;
+    font-size: 20px;
+    margin: 5px;
+    margin-bottom: 25px;
+}
+.why_item{
+    display: flex;
+    align-items: center;
+}
+.why_img{
+    padding-right: 20px;
+}
+/*ПОДВАЛ САЙТА */
+.footer{
+display: flex;
+justify-content: space-between;
+font-family: 'Raleway', sans-serif;
+font-size: 13px;
+font-style:normal;
+}
+.About{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.company_banner{
+    align-items: center;
+
+}
+
+.footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    Font-style: Bold; 
+    color: #A5B4CB;
+
+}
+
+.info_footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Prompt', sans-serif;
+}
+.line_{
+    display: flex;
+}
+.line {
+    display: flex;
+    border-top: 1px solid #A5B4CB;
+   }
+
+.br{
+    background-color:  crimson;
+}
+.o_company{
+    margin: 15px;
+}
+.dostavka{
+    margin: 15px;
+}
+.contact{
+    margin: 15px;
+}
+.time{
+    margin: 15px;
+}
+.phone_contacts{
+    margin: 15px;
+}
+.items{
+    margin: 5px;
+}
+.items:hover{
+    text-decoration: underline;
+}
+.item_tw{
+    margin: 5px;
+}
+.footer_text_color{
+    color:#A5B4CB;
+}
+
+.footer_text_color:hover{
+    color: #ffffff;
+}
+.line_line{
+    border-top: 1px solid #A5B4CB; /* Параметры линии */
+    margin-left: 15px;
+}
+.medalliancegroup{
+    margin-left: 15px;
+    padding-bottom: 50px;
+    color: #A5B4CB;
+}
+.item_icon{
+    display: flex;
+    margin-top: 15px;
+}
+
+/* subscription*/
+.subscription{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.subscription_item{
+    
+    align-items: center;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.subscription_item_sog{
+    margin-left: 9px;
+    margin-bottom: 25px;
+    font-size: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+.subscription_item_3{
+    background: #5F83BE;
+    color: #fff; 
+}
